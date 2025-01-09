@@ -39,29 +39,32 @@
 		<meta property="term" refines="#subject-2">sh85047114</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85001072</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Adventure</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Tarzan</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">10</meta>
+		<dc:description id="description">Tarzan finds himself trapped in an unfamiliar land inhabited by a tiny people.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Attempting his first solo airplane flight, Tarzan, Lord Greystoke, crashes in the unknown land of Minuni, surrounded by an impenetrable forest of thorns. After first encoutering a group of slow, speechless giants, he escapes to discover a civilization of city-states inhabited by a people one quarter his size. As he is caught up in the wars they fight among themselves, he is captured, and must escape both the city and the land to return home.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Tarzan and the Ant Men&lt;/i&gt; is the tenth book in the &lt;a href="https://standardebooks.org/collections/tarzan"&gt;Tarzan&lt;/a&gt; series. It ran as a seven part serial in &lt;i&gt;Argosy All-Story Weekly&lt;/i&gt; beginning in February of 1924, and was published as a book by A. C. McClurg &amp;amp; Co. in September of that year.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/61837</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/tarzanantmen00burr</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tarzan_and_the_Ant_Men</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edgar-rice-burroughs_tarzan-and-the-ant-men</meta>
 		<dc:creator id="author">Edgar Rice Burroughs</dc:creator>
 		<meta property="file-as" refines="#author">Burroughs, Edgar Rice</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edgar_Rice_Burroughs</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n80039681</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">J. Allen St. John</dc:contributor>
+		<meta property="file-as" refines="#artist">St. John, J. Allen</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/J._Allen_St._John</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/n86809359</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Tim Lindell</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Lindell, Tim</meta>
@@ -73,9 +76,8 @@
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Galen Hazelwood</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Hazelwood, Galen</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
