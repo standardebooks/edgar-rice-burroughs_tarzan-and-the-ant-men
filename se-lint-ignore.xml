@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-1[18].xhtml">
+		<ignore>
+			<code>y-013</code>
+			<reason>The text contains quotes within quotes, that is, the speaker is quoting something. The comma-inside-quotation rule should only apply to the outer layer, not the inner.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
