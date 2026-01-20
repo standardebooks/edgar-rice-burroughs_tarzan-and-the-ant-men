@@ -52,7 +52,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/61837</dc:source>
 		<dc:source>https://archive.org/details/tarzanantmen00burr</dc:source>
-		<meta property="se:word-count">78251</meta>
+		<meta property="se:word-count">78018</meta>
 		<meta property="se:reading-ease.flesch">66.57</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tarzan_and_the_Ant_Men</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edgar-rice-burroughs_tarzan-and-the-ant-men</meta>
