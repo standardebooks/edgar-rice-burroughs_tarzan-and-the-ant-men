@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/edgar-rice-burroughs/tarzan-and-the-ant-men</dc:identifier>
 		<dc:date>2025-01-13T16:10:58Z</dc:date>
@@ -45,11 +45,11 @@
 		<meta id="collection-1" property="belongs-to-collection">Tarzan</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">10</meta>
-		<dc:description id="description">The legendary lord of the jungle Tarzan finds himself trapped in an unfamiliar land inhabited by a tiny people.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>The legendary lord of the jungle Tarzan finds himself trapped in an unfamiliar land inhabited by a tiny people.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Attempting his first solo airplane flight, Tarzan, Lord Greystoke, crashes in the unknown land of Minuni, surrounded by an impenetrable forest of thorns. After first encountering a group of slow, speechless giants, he escapes to discover a civilization of city-states inhabited by a people one quarter his size. As he is caught up in the wars they fight among themselves, he is captured, and must escape both the city and the land to return home.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Tarzan and the Ant Men&lt;/i&gt; is the tenth book in the &lt;a href="https://standardebooks.org/collections/tarzan"&gt;Tarzan&lt;/a&gt; series. It ran as a seven part serial in &lt;i&gt;Argosy All-Story Weekly&lt;/i&gt; beginning in February of 1924, and was published as a book by A. C. McClurg &amp;amp; Co. in September of that year.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/61837</dc:source>
 		<dc:source>https://archive.org/details/tarzanantmen00burr</dc:source>
